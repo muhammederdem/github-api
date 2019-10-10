@@ -1,0 +1,26 @@
+.detail .detail {
+  margin-bottom: 30px;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  &__title {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  &-controls {
+    display: flex;
+    align-items: center;
+    &__item {
+      margin-left: 30px;
+      font-size: 17px;
+      font-weight: 500;
+      strong {
+        font-weight: 400;
+        opacity: 0.6;
+      }
+    }
+  }
+}
